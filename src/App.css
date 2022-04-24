@@ -1,0 +1,282 @@
+* {
+	box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+body {
+	background-color: #ececec;
+	color: rgb(63, 63, 63);
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.container{
+width: 414px;
+height: 896px;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+background: #efefef;
+justify-content: space-between;
+
+padding: 20px;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+
+
+
+.newCard{
+    margin-top: 50px;
+    background: linear-gradient(248.3deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%), #D0D0D0;
+}
+.bitcoinCard{
+    margin-bottom: -190px;
+
+    background: linear-gradient(248.04deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 99.07%), #FFAE34;
+}
+.ninjaCard{
+    margin-bottom: -190px;
+
+    background: linear-gradient(248.3deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%), #222222;
+}
+.chainCard{
+    margin-bottom: -190px;
+    background: linear-gradient(248.52deg, rgba(0, 0, 0, 0.15) 1.49%, rgba(0, 0, 0, 0) 100%), #8B58F9;
+}
+.evilCard{
+    margin-bottom: -190px;
+
+    background: linear-gradient(248.3deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0) 100%), #F33355;
+}
+
+.bitcoinCard, .ninjaCard, .chainCard, .evilCard, .newCard{
+width: 382px;
+height: 241px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+align-items: stretch;
+padding: 15px;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+
+
+}
+
+
+button{
+width: 382px;
+height: 72px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 8px;
+margin-top: 35px;
+font-family: 'PT Mono', monospace;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 25px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+
+}
+
+.add{
+margin-top: 40px;
+color: #ececec;
+background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.holder{
+
+    width: 350px;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    align-content: space-between
+}
+
+
+
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 900;
+font-size: 35px;
+margin: 5px;
+padding: 5px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+}
+
+h2{
+
+font-family:  'PT Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 32px;
+letter-spacing: 0.03em;
+box-shadow: 0.5px 0.5px 0px 0px rgba(0, 0, 0, 0.55) inset;
+text-align: center;
+color: #000000;
+
+padding: 0px;
+margin: 0px;
+}
+
+.mainCard p{
+    margin: 5px;
+    padding: 5px;
+}
+.holder p{
+
+font-family:  'PT Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 13px;
+text-transform: uppercase;
+
+color: rgba(0, 0, 0, 0.8);
+
+padding: 0px;
+margin: 0px;
+}
+
+h3{
+font-family:  'PT Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+align-items: center;
+text-transform: uppercase;
+
+color: #000000;
+
+padding: 0px;
+margin: 0px;
+}
+
+.otherCards{
+    height: 300px;;
+display: flex;
+flex-direction: column;
+margin-top: 280px;
+}
+
+
+
+
+
+label{
+width: 200px;
+height: 22px;
+left: 16px;
+top: 419px;
+
+font-family:  'PT Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+
+.fourm{
+    margin-top:40px;
+}
+
+
+input, select{
+width: 382px;
+height: 56px;
+
+border: 1px solid rgba(0, 0, 0, 0.8);
+box-sizing: border-box;
+border-radius: 8px;
+font-family:  'PT Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+padding-left:10px;
+padding-right: 10px;
+}
+
+.val, .ccv{
+width: 182px;
+height: 56px;
+display: inline-block;
+font-family: monospace;
+font-style: normal;
+font-weight: 401;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.valccv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: flex-start;
+    align-content: flex-start;
+height: 90px;
+
+}
